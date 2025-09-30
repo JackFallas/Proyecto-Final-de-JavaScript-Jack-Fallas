@@ -1,3 +1,4 @@
+//Se termino el proyecto (no habia hecho git add)
 const PALABRAS = ['teclado', 'pantalla', 'raton', 'programa', 'consola', 'variable', 'arreglo', 'ciclo', 'funcion', 'codigo', 'internet', 'servidor', 'navegador', 'escritorio', 'archivo', 'carpeta', 'usuario', 'seguridad', 'algoritmo', 'desafio'];
 const MAX_INTENTOS = 7;
 
