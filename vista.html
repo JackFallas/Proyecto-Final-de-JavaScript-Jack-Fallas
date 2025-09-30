@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado Simple</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; }
+        #palabra-oculta { font-size: 2em; margin: 20px 0; letter-spacing: 0.5em; }
+        #contenedor-botones button { padding: 10px; margin: 5px; font-size: 1em; cursor: pointer; }
+        #ahorcadoCanvas { border: 1px solid black; background-color: #f0f0f0; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>EL JUEGO DEL AHORCADO</h1>
+    <p id="intentos-restantes">Intentos restantes: 7</p>
+
+    <canvas id="ahorcadoCanvas" width="300" height="300"></canvas>
+
+    <div id="palabra-oculta"></div>
+
+    <p id="mensaje-estado"></p>
+
+    <div id="contenedor-botones">
+        
+    </div>
+
+    <button id="boton-reiniciar" onclick="iniciarJuego()" style="display: none;">Jugar de Nuevo</button>
+
+    <script src="logica.js"></script>
+</body>
+</html>
